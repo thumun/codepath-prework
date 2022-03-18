@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>light and sound game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Light and Sound Memory Game </h1>
+    
+    <p>
+      Welcome to the game! 
+      <br>
+      Repeat the pattern back by pressing the squares below: 
+    </p>
+    
+    <div id = "timer">
+      <p> Timer: </p>
+      <button id="countDown"> </button>
+      <br>
+      <br>
+    </div>
+    
+    <div id="str_stp">
+      <button id="startBtn" onclick="startGame()">Start</button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    </div>
+    
+    <div id="gameButtonArea">
+
+      <!-- https://stackoverflow.com/questions/8683528/embed-image-in-a-button-element 
+      used above link to figure out how to put image on button -->
+
+      
+      <button id="button1" onmousedown="playMyAudio(1)" onmouseup="stopMyAudio(1)" onclick="guess(1)" >
+        <audio src="https://cdn.glitch.global/625ae385-5d9e-44f8-b2c4-2a9aa40d4c7f/Dog%20Howling%20At%20Moon-SoundBible.com-1369876823.mp3?v=1647624295911"
+               id = "myAudio1"></audio>
+      </button>
+      
+      <button id="button2" onmousedown="playMyAudio(2)" onmouseup="stopMyAudio(2)" onclick="guess(2)">
+        <audio src="https://cdn.glitch.global/625ae385-5d9e-44f8-b2c4-2a9aa40d4c7f/Puppy%20Dog%20Barking-SoundBible.com-871302192.mp3?v=1647624299119"
+               id = "myAudio2"></audio>
+      </button>
+      
+      <button id="button3" onmousedown="playMyAudio(3)" onmouseup="stopMyAudio(3)" onclick="guess(3)"
+              style="">
+        <audio src="https://cdn.glitch.global/625ae385-5d9e-44f8-b2c4-2a9aa40d4c7f/small-dog-barking_daniel-simion.mp3?v=1647624290472"
+               id = "myAudio3"></audio>
+      </button>
+      
+      <button id="button4" onmousedown="playMyAudio(4)" onmouseup="stopMyAudio(4)" onclick="guess(4)">
+        <audio src="https://cdn.glitch.global/625ae385-5d9e-44f8-b2c4-2a9aa40d4c7f/labrador-barking-daniel_simon.mp3?v=1647624301769"
+               id = "myAudio4"></audio>
+      </button>
+      
+      <button id="button5" onmousedown="playMyAudio(5)" onmouseup="stopMyAudio(5)" onclick="guess(5)">
+        <audio src="https://cdn.glitch.global/625ae385-5d9e-44f8-b2c4-2a9aa40d4c7f/doberman-pincher_daniel-simion.mp3?v=1647624293050"
+               id = "myAudio5"></audio>
+      </button>
+      
+      <button id="button6" onmousedown="playMyAudio(6)" onmouseup="stopMyAudio(6)" onclick="guess(6)"
+              style="">
+        <audio src="https://cdn.glitch.global/625ae385-5d9e-44f8-b2c4-2a9aa40d4c7f/german-shephard-daniel_simon.mp3?v=1647624285977"
+               id = "myAudio6"></audio>
+      </button>
+    </div>
+    
+  </body>
+</html>
