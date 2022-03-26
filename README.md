@@ -39,10 +39,18 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+
+Full game playthrough:
+![](https://i.imgur.com/XBHT2uC.gif)
+![](https://i.imgur.com/BSQd6Ms.gif)
+![](https://i.imgur.com/uIpll9c.gif)
+
+Mistake counter:
+![](https://i.imgur.com/Txct6BD.gif)
+
+Timer/Countdown:
+![](https://i.imgur.com/n5f2BHw.gif)
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
