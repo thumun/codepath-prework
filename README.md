@@ -41,14 +41,17 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
 Full game playthrough:
+
 ![](https://i.imgur.com/XBHT2uC.gif)
 ![](https://i.imgur.com/BSQd6Ms.gif)
 ![](https://i.imgur.com/uIpll9c.gif)
 
 Mistake counter:
+
 ![](https://i.imgur.com/Txct6BD.gif)
 
 Timer/Countdown:
+
 ![](https://i.imgur.com/n5f2BHw.gif)
 
 
