@@ -116,7 +116,7 @@ Another feature I would like to add is making my timer have different displays. 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://drive.google.com/file/d/1NkriByBvceCj7_uBAnNfCExFh4w_DcKz/view?usp=sharing)
 
 
 ## License
